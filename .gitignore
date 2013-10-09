@@ -1,0 +1,3 @@
+# .gitignore
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
