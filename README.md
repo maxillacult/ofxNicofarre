@@ -1,18 +1,18 @@
 #ofxNicoFarre
 
-Recommended version : v0.8.0~
+Recommended oF version : v0.8.0~
 
+**
 This addon is a simulator for LED display at event space "Nicofarre" in Japan.
 このアドオンは、openFrameworksを使ってニコファーレ用の映像を作るためのシミュレーターです。
+**
 
 
 
-
-**※本アドオンは、ニコファーレでの映像出力においてリハーサル回数を抑える等の目的で補助的にシミュレートする非公式のアドオンです。
-イベント演出の完全再現を保証するものではありませんのでご了承ください。**
+※本アドオンは、ニコファーレでの映像出力においてリハーサル回数を抑える等の目的で補助的にシミュレートする非公式のアドオンです。
+イベント演出の完全再現を保証するものではありませんのでご了承ください。
 
 ##Reference
----
 
 #####void ofxNicofarre::setup(int w,int h, ofFbo* buffer);
 シミュレータを初期化します。
