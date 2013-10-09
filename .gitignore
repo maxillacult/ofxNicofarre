@@ -1,3 +1,5 @@
 # .gitignore
 *.xcodeproj/*
 !*.xcodeproj/project.pbxproj
+example_OpenedTexture/bin
+example_Normal/bin

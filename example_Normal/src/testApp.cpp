@@ -41,7 +41,8 @@ void testApp::draw(){
 	NicoFarre.previewDraw(0, 0);
 
 	/*--- Draw source buffer ---*/
-	NicoFarre.getSourceBuf()->draw(0, 0, 320, 180);
+	NicoFarre.getSourceBuf()->draw(0, 20, 320, 180);
+	ofDrawBitmapString("Drawable source buffer", 0,18);
 }
 
 //--------------------------------------------------------------
