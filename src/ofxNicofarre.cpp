@@ -66,6 +66,7 @@ void ofxNicofarre::BufUpdate(){
 		openedTexture.refleshVertexPointer();
 
 		sourceBuf.begin();
+		ofClear(0, 0, 0);
 		ofSetColor(255);
 		source_sample.draw(0,0, 1920, 1080);
 		openedTexture.draw();
